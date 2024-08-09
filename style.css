@@ -1,0 +1,350 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* Starter code begins here */
+body {
+    background-color:#e0f2f1;
+    background-image: url('');
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: black;
+    
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    color: #0d47a1; 
+    font-size: 32px; 
+    text-align: center; 
+    padding: 20px;
+
+}
+
+h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #0d47a1;
+
+}
+
+h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #0d47a1;
+
+}
+
+p {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 20px;
+
+}
+
+
+a:link {
+    color: #0d47a1;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #6200ea;
+}
+
+a:hover {
+    color: #1a237e;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #0d47a1;
+}
+
+ol {
+
+}
+
+ol li {
+
+}
+
+ul {
+
+}
+
+ul li {
+
+}
+
+button {
+    background-color: #008CBA;
+    border: 1px solid #fff;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 32px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #808080;
+}
+
+/* Add your classes and IDs here */
+.header {
+    background-color: #ffffff;
+    /*padding: 10px 0;*/
+    padding-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+#header-left {
+    float: left;
+    padding-left: 20px;
+}
+
+#header-right {
+    /*float: right;
+    padding-right: 20px;*/
+    width: 50%; /* Adjust as needed */
+    display: inline-block;
+    vertical-align: top;
+}
+
+#header-img {
+    /*height: 100px;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* Adjust as needed */
+    max-width: 200px; /* Adjust as needed */
+}
+
+.header-button {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid transparent;;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* Navbar styles */
+.navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+    position: relative; /* Or 'fixed' */
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    margin-bottom: 0; /* Choose as per your design */
+    /*background-color: white;*/
+}
+
+.navbar ul li {
+    float: left;
+    margin: 10px;
+}
+
+.navbar ul li a {
+    display: block;
+    font-family: Arial;
+    color: white;
+    font-size: 16px;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    font-weight: bold;
+    background-color: #808080;
+}
+
+/* Flexbox styles */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px; 
+}
+
+/* Style rules for flex-item 1 */
+.header-item:nth-of-type(1) {
+
+}
+
+/* Style rules for flex-item 2 */
+.header-item:nth-of-type(2) {
+
+}
+
+/* Style rules for flex-item 3 */
+.header-item:nth-of-type(3) {
+
+}
+
+.flex-item {
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    /* Additional styles if needed */
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #808080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode nav {
+    background-color: #333;
+}
+
+.dark-mode a {
+    color: #4DD0E1;
+    text-decoration: none;
+}
+
+.dark-mode a:hover {
+    color: #1A88E1;
+}
+
+#theme-button {
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff8f00; /* Change to any color you like */
+    padding: 10px 20px;
+    border: 2px dotted #ff8f00;
+    cursor: pointer;
+    border-width: thin;
+    /* Add more rules if necessary */
+}
+
+.petition-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.petition-para {
+    width: 55%;
+    padding-right: 10px;
+}
+
+.signatures {
+    width: 45%;
+    padding-left: 10px;
+}
+
+.error {
+    border: 2px solid red; /* Highlight border in red */
+    background-color: #ffcccc; /* Light red/pink background */
+  /* Feel free to add more styling as needed */
+  /* ... your existing CSS ... */
+
+  /* the modal that covers the background and prevents user interactions */
+
+
+}
+
+.revealable {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+.modal {
+    display: none; /* hides the modal from view by default*/
+    position: fixed; /* keeps the modal in one place */
+    z-index: 2; /* positions the modal on top of all other elements on the screen */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+    flex-direction: column; /* these flexbox rules center the content on the screen */
+    align-items: center;
+    justify-content: center;
+}
+
+/* box that contains all the content and images */
+.modal-content {
+    background-color: lightsteelblue;
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    display: flex; /* adds flexbox to center all items */
+    justify-content: center;
+    align-items: center;
+}
+
+#thanks-modal-content {
+    width: 20rem; /* sets a default width for the text container */
+}
+
+#modal-text-container {
+    display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-modal {
+    background-color: #f44336; /* Red color for close button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.close-modal:hover {
+    background-color: #d32f2f; /* Darker shade for hover effect */
+}

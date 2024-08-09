@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Making Education Accessible To Children</title>
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+
+  <style>
+    body {
+      background-color: #e0f2f1;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h1   {
+      color: #0d47a1; 
+      font-size: 32px; 
+      text-align: center; 
+      padding: 20px; 
+    }
+    p    {}
+    .important {}
+    #interesting {}
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#impact">Impact</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="theme-button">Toggle Dark Mode</button></li>
+      <!-- Stretch Challenge: Drop Down -->
+    </ul>
+  </div>
+
+  <!-- Flexbox Layout Starter Code -->
+  <div class="flex-container">
+    <div class="flex-item"></div>
+    <div class="flex-item"></div>
+    <div class="flex-item"></div>
+  </div>
+  
+  <img /> 
+  <div class ="header-container">
+    <div id="header-item">
+      <img id="header-img" src="img/IMG_6D7A3E273E18-1.jpeg" alt="Logo"/>
+    </div>
+    <div class="header-item">
+    <h1>My Activism Project: Free and Accessible Education For All Children</h1>
+    <h3>A learning app/website for children could be a great solution to provide basic knowledge like math and english</h3>
+    </div>
+    <div id="header-item">
+      <button class="header-button" type="button">Learn More About Free Education</button>
+      <button class="header-button" type="button">Support the Cause</button>
+    </div>
+  </div>
+  
+  <h2 class = "revealable" > About My Topic</h2>
+  <p>The purpose of my website is to provide educational resources and tools for children, who do not have access to go to school, to learn basic skills such as math and literacy. Thus, creating a virtual classroom environment for remote or homeschooled children, promoting physical activity and movement in children, and offering a fun and engaging way for children to learn and explore new concepts.
+  </p>
+
+  <h3> Did You Know?</h3>
+  <img src="" />
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/k93YwrQ8zBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h4>Education Access by Numbers </h4>
+  <p class ="revealable" >This chart illustrates the percentage of children worldwide who have access to education. As we can see, a significant portion of the child population is still deprived of this basic right.</p>
+
+  <ul>
+      <li>less than 15%</li>
+      <li>15%-25%</li>
+      <li>25%-35%</li>
+      <li>35%-45%</li>
+      <li>>45%</li>
+  </ul>
+
+  <h2 class="revealable" >Impact!</h2>
+
+  <img class="revealable" src="img/IMG_493AFCFEF5F3-1.jpeg" width="300" />
+  <h3 class="revealable" >MIND</h3>
+  <p>The problem of education not being free for all children can have a lasting effect on the mind, as it limits access to knowledge, stifles creativity, and hampers cognitive development.
+  </p>
+
+  <img class="revealable" src="img/IMG_7B68D1E5F6E0-1.jpeg" width="300" />
+  <h3 class="revealable" >SOCIETY</h3>
+  <p>The problem of education not being free for all children can have a lasting effect on society, as it perpetuates inequality, limits social mobility, and hinders overall economic development.</p>
+
+  <img class="revealable" src="img/IMG_BBE9812A90D9-1.jpeg" width="300" />
+  <h3 class="revealable" >HOME</h3>
+  <p>Families and individuals might lack the financial stability to provide themselves or their children with an education. It might also lead to them thinking that gaining an education is not their right.</p>
+
+  <div class="petition revealable" id="petition">
+    <h2>Sign Our Petition 📢</h2>
+    <div class="petition-container">
+      <div class="petition-para">
+        <p>Join our movement to make education accessible to all children, regardless of their financial background. Sign our petition to urge policymakers to allocate funds for free educational resources for underprivileged kids.</p>
+      </div>
+      <div class="signatures">
+        <p>🖊️ Alex from Johannesburg supports this.</p>
+        <p>🖊️ Maria from Mumbai supports this.</p>
+        <p>🖊️ John from Manila supports this.</p>
+      </div>
+    </div>
+    <!--- Sign Petition Form --->
+    <form id="sign-petition" title="sign-petition">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="hometown">Hometown:</label>
+      <input type="text" id="hometown" name="hometown" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </form>
+    <!--- Sign Now Button --->
+    <button id="sign-now-button">Sign Now</button>
+  </div>
+
+  
+  <h2>Recent News</h2>
+  <a class="resource-link" 
+      href="https://www.kidsacademy.mobi">
+      <article>
+          <h3>Kids Academy Educational Videos</h3>
+          <p>Interactive and fun learning videos for young students, promoting foundational skills in core subjects.</p>
+      </article>
+  </a>
+
+  <a class="resource-link" href="https://www.ted.com/watch/ted-ed">
+    <article>
+      <h3>TED-Ed Educational Lessons</h3>
+      <p>Discover educational videos on a wide range of subjects, created to inspire learners and educators around the world.</p>
+    </article>
+  </a>
+
+  <a class="resource-link" href="https://www.youtube.com/user/watchfreeschool">
+    <article>
+      <h3>Free School YouTube Channel</h3>
+      <p>Explore a variety of educational content for children, including art, music, and science, presented in an engaging way.</p>
+    </article>
+  </a>
+
+  <footer class="footer">
+    <a href="https://www.educationalwebsite.org" target="_blank">Educational Website</a> | 
+    <a href="https://www.anothereducationalresource.org" target="_blank">Another Educational Resource</a>
+  </footer>
+  
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+
+  <script src="index.js"></script>
+
+  <!-- Modal -->
+  <div id="thanks-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <p id="thanks-modal-content">Thank you for signing the petition!</p>
+        <button id="close-modal-button" class="close-modal">Close</button>
+      </div>
+      <!-- Placeholder image for the modal -->
+      <img id="modal-image" src="img/IMG_3DCE0D593275-1.jpeg" alt="Celebration Image" width="400">
+    </div>
+
+  </div>
+
+</body>
+
+</html>
